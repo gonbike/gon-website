@@ -37,7 +37,7 @@
 .content .news-top-list{min-height: 1300px;background: #FFF;}
 .content .news-top-list .title{text-align: left;margin: 0 10%;padding: 20px;}
 
-.content .news-top-list .news-item{margin: 30px;padding-top:20px;height: 15%;position: relative; left: 0;right: 10%;}
+.content .news-top-list .news-item{margin:7% 10%;padding-top:20px;height: 15%; position: relative; left: 0;right: 10%;}
 
 .content .news-top-list .news-item  .news-info{float: left;left: 10%;position: absolute;}
 .content .news-top-list .news-item  .news-img{float: right;right:10%;position: absolute;}
