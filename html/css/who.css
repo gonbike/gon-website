@@ -1,23 +1,44 @@
-.header{height:75%; background: url(../img/about/bg1.png) no-repeat;max-height: 610px; position: fixed;max-width: 1920px;}
-.content{min-height: 548px; max-width: 1920px; position: relative;    width: 100%;    top: 448px;font-family:"MicrosoftYaHei",微软雅黑; }
-.info{font-size: 35px; position: absolute;margin: 0 auto;top:30%;left:35%;}
-.info .view-detail{cursor: pointer; font-size: 20px; margin-top:20px;}
-.info .view-detail a{text-decoration: none;color:#FFF;}
-.company-container{height: 360px;width:100%; background: #FFF;opacity: 0.8;background: #ddd;margin: 0;}
+/*.header{height:100%; background: url(../img/about/bg1.png) no-repeat;max-height: 610px; position: fixed;max-width: 1920px;position: fixed;}*/
+.header{height:100%;max-height: 610px; position: fixed;max-width: 1920px;position: fixed;}
+.header .header-imgs{position: absolute;}
+.header .header-imgs .imgList { position: relative;   display: block;    margin: 0;    padding: 0;}
+.header .header-imgs .imgList li{float: left; display:inline;}
+.header .infoList{position: absolute;left: 10px;bottom: 10px;z-index: 30;}
+.header .infoList li{display: none;}
+.header .infoList .infoOn{display: inline;color: white;}
+.header .indexList{position: absolute;left: 45%;bottom: 5px;z-index: 30;}
+.header .indexList li{float: left;margin-right: 15px;padding: 2px 4px;color:#fff;cursor: pointer;}
+.header .indexList .indexOn{color: red;font-weight: bold;}
 
-.company-introduce{position: absolute;width: 41%; -moz-animation: group-info 1.5s ease-in-out both; -webkit-animation: group-info 1.5s ease-in-out both;animation: group-info 1.5s ease-in-out both;    }
+
+.content{min-height: 548px; max-width: 1920px; position: relative;    width: 100%;    top: 610px;font-family:"MicrosoftYaHei",微软雅黑; }
+
+
+.company-container{height: 760px;width:100%; background: #FFF;background: url(../img/about/Intro.png);margin: 0;}
+
+.company-container .company-introduce{margin: 0 25%;padding-top:25px; -moz-animation: isit-info 1.5s ease-in-out both; -webkit-animation: isit-info 1.5s ease-in-out both;animation: isit-info 1.5s ease-in-out both;    }
 /*.company-introduce span{}*/
-.company-introduce h4{font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
-.company-introduce .introduction span{line-height: 35px; text-align: left;display: block;}
-.company-introduce .introduction span:last-child{text-align: center;}
+.company-container .company-introduce h4{font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
+.company-container .company-introduce .introduction div{line-height: 35px; text-align: left;display: block;}
+.company-container .company-introduce .introduction div:last-child{text-align: center;}
 
-.company-group{height:300px;background:url(../img/about/2.jpg);margin-top: -10px;}
-.company-group h4{padding:20px;font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
-.company-group .company-group-info{width:40%;position: absolute;  -moz-animation: group-info 2.5s ease-in-out both; -webkit-animation: group-info 2.5s ease-in-out both;animation: group-info 2.5s ease-in-out both;
+.company-container .company-introduce-vers{    margin: 0 25%;padding-top:25px; -moz-animation: isit-info 1.5s ease-in-out both; -webkit-animation: isit-info 1.5s ease-in-out both;animation: isit-info 1.5s ease-in-out both;    }
+/*.company-introduce span{}*/
+.company-container .company-introduce-vers h4{font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
+.company-container .company-introduce-vers .introduction div{line-height: 35px; text-align: left;display: block;}
+.company-container .company-introduce-vers .introduction div:last-child{text-align: center;}
+
+/*.company-container .company-introduce-vers .medias a{text-decoration: none;}*/
+/*.company-container .company-introduce-vers .medias img{ width:20px;height:20px;margin: 10px 10px 0 0;}*/
+
+
+.company-isit{height:735px;background:url(../img/about/isitbg.png);margin: 0;}
+.company-isit h4{padding:20px;font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
+.company-isit .company-isit-info{padding:8%; -moz-animation: isit-info 2.5s ease-in-out both; -webkit-animation: isit-info 2.5s ease-in-out both;animation: isit-info 2.5s ease-in-out both;
     }
-.company-group .company-group-info span{line-height: 35px;text-align: left;display: block;}
-.company-group .company-group-more{width:100px;position: absolute;left:42%;margin: 20px 0; cursor: pointer; border: 2px solid #FFF;padding: 5px;border-radius: 10px;}
-.company-group .company-group-more a{text-decoration: none;color:#FFF;}
+.company-isit .company-isit-info span{line-height: 35px;text-align: center;display: block;}
+.company-isit .company-isit-more{width:100px;position: absolute;left:42%;margin: 5%; cursor: pointer; border: 2px solid #FFF;padding: 5px;border-radius: 10px;}
+.company-isit .company-isit-more a{text-decoration: none;color:#FFF;}
 
 .recuit-Info{height: 348px; background: url(../img/about/3.jpg);margin-top: -10px;}
 .recuit-Info h4{padding:20px;font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
@@ -40,17 +61,20 @@
 .contact-Info .contacts .contact-user{font-weight: 700;}
 .contact-Info .contacts .contact-user span{padding-top: 5px;display: block;}
 
+
+
+.content .imgs >img{width: 100%;}
 .footer { top: 429px;}
 
 
 .aa{transform: scale3d(0.95,0.95,1)}
 
 /*animations*/
-@-webkit-keyframes group-info{
+@-webkit-keyframes isit-info{
     0%{left:0;opacity: 0;}
     100%{left:30%;opacity: 1;}
 }
-@keyframes group-info{
+@keyframes isit-info{
     0%{left:0;opacity: 0;}
     100%{left:30%;opacity: 1;}
 }

@@ -1,0 +1,58 @@
+/*.header{height:100%; background: url(../img/about/bg1.png) no-repeat;max-height: 610px; position: fixed;max-width: 1920px;position: fixed;}*/
+.header{height:100%;max-height: 610px; position: fixed;max-width: 1920px;position: fixed;}
+.header .header-imgs{position: absolute;}
+.header .header-imgs .imgList { position: relative;   display: block;    margin: 0;    padding: 0;}
+.header .header-imgs .imgList li{float: left; display:inline;}
+.header .infoList{position: absolute;left: 10px;bottom: 10px;z-index: 30;}
+.header .infoList li{display: none;}
+.header .infoList .infoOn{display: inline;color: white;}
+.header .indexList{position: absolute;left: 45%;bottom: 5px;z-index: 30;}
+.header .indexList li{float: left;margin-right: 15px;padding: 2px 4px;color:#fff;cursor: pointer;}
+.header .indexList .indexOn{color: red;font-weight: bold;}
+
+.info {top:35%;}
+.info .num-of-bikes{padding-top: 25px;}
+.info  .view-detail{padding-top:50px;}
+.info  .view-detail .btn-download{padding:15px;opacity: .8; border-radius: 25px; background: #C54543;}
+.info .medias {padding-top:50px;}
+.info .medias img{width:25px;height:25px;}
+
+.corlorD71E26{color:#D71E26;}
+.color797979 {color:#797979;}
+.color373737 {color:#373737}
+.font13{font-size:13px;}
+.font16{font-size:16px;}
+.font18{font-size:18;}
+.font22{font-size:22px;}
+.font28{font-size:28;}
+
+.fontweight500{font-weight: 500;}
+.fontweight600{font-weight: 600;}
+.fontweight700{font-weight: 700;}
+
+
+
+.content{min-height: 548px; max-width: 1920px; position: relative;    width: 100%;top: 610px;font-family:"MicrosoftYaHei",微软雅黑; }
+
+.content .news-top-list{min-height: 1300px;background: #FFF;}
+.content .news-top-list .title{text-align: left;margin: 0 10%;padding: 20px;}
+
+.content .news-top-list .news-item{margin: 30px;padding-top:20px;height: 15%;position: relative; left: 0;right: 10%;}
+
+.content .news-top-list .news-item  .news-info{float: left;left: 10%;position: absolute;}
+.content .news-top-list .news-item  .news-img{float: right;right:10%;position: absolute;}
+.content .news-top-list .news-item  .news-img img{width:200px;height:150px;}
+
+.content .news-top-list .news-item  .news-info a {text-decoration: none;}
+
+.content .news-item .news-info .news-title{text-align: left;}
+
+.content .news-item .news-info .news-summary {padding-top:20px;padding-left:3px;}
+.content .news-item .news-info .read-more {padding-top:30px;}
+.content .news-item .news-info .read-more a {padding:10px;border-radius: 20px;display: block;width:100%;height: 100%;border:1px solid #D71E26;}
+
+.content .news-item .news-info .author-info{padding-top:25px;text-align: left;}
+.content .news-item .news-info .author-info .pub-time{padding-left:15%;}
+
+
+.footer { top: 700px;}
