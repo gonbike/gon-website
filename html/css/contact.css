@@ -24,7 +24,7 @@
 
 .content .contact .contact-infos{padding: 20% 45% 5%;}
 
-.content .contact .contact-infos .contact-info-item{padding: 2% 0;}
+.content .contact .contact-infos .contact-info-item{padding: 2% 0;width:300px;}
 .content .contact .contact-infos .contact-info-item .tel{background: url("../img/contact/tel.png") no-repeat;padding: 10px 20px 10px 50px;display: inline-flex;width: 100%;}
 .content .contact .contact-infos .contact-info-item .mail{background: url("../img/contact/mail.png") no-repeat;padding: 10px 20px 10px 50px;margin: 10px 0;width: 100%;display: inline-flex;}
 
