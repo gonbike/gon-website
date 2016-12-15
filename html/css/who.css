@@ -14,15 +14,15 @@
 .content{min-height: 548px; max-width: 1920px; position: relative;    width: 100%;    top: 610px;font-family:"MicrosoftYaHei",微软雅黑; }
 
 
-.company-container{height: 760px;width:100%; background: #FFF;background: url(../img/about/Intro.png);margin: 0;}
+.company-container{min-height: 760px;width:100%;background:#FFF url(../img/about/Intro.png) no-repeat;margin: 0;}
 
-.company-container .company-introduce{margin: 0 25%;padding-top:25px; -moz-animation: isit-info 1.5s ease-in-out both; -webkit-animation: isit-info 1.5s ease-in-out both;animation: isit-info 1.5s ease-in-out both;    }
+.company-container .company-introduce{padding: 0 25%;padding-top:25px; -moz-animation: isit-info 1.5s ease-in-out both; -webkit-animation: isit-info 1.5s ease-in-out both;animation: isit-info 1.5s ease-in-out both;    }
 /*.company-introduce span{}*/
 .company-container .company-introduce h4{font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
 .company-container .company-introduce .introduction div{line-height: 35px; text-align: left;display: block;}
 .company-container .company-introduce .introduction div:last-child{text-align: center;}
 
-.company-container .company-introduce-vers{    margin: 0 25%;padding-top:25px; -moz-animation: isit-info 1.5s ease-in-out both; -webkit-animation: isit-info 1.5s ease-in-out both;animation: isit-info 1.5s ease-in-out both;    }
+.company-container .company-introduce-vers{padding: 0 25%;padding-bottom: 25px; -moz-animation: isit-info 1.5s ease-in-out both; -webkit-animation: isit-info 1.5s ease-in-out both;animation: isit-info 1.5s ease-in-out both;    }
 /*.company-introduce span{}*/
 .company-container .company-introduce-vers h4{font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
 .company-container .company-introduce-vers .introduction div{line-height: 35px; text-align: left;display: block;}

@@ -17,18 +17,6 @@
 .info .medias {padding-top:50px;}
 .info .medias img{width:25px;height:25px;}
 
-.corlorD71E26{color:#D71E26;}
-.color797979 {color:#797979;}
-.color373737 {color:#373737}
-.font13{font-size:13px;}
-.font16{font-size:16px;}
-.font18{font-size:18;}
-.font22{font-size:22px;}
-.font28{font-size:28;}
-
-.fontweight500{font-weight: 500;}
-.fontweight600{font-weight: 600;}
-.fontweight700{font-weight: 700;}
 
 
 
@@ -37,7 +25,9 @@
 .content .news-top-list{min-height: 1300px;background: #FFF;}
 .content .news-top-list .title{text-align: left;margin: 0 10%;padding: 20px;}
 
-.content .news-top-list .news-item{margin:50px;padding-top:20px;height: 15%; position: relative; left: 0;right: 10%;}
+.content .news-top-list .news-item{margin-bottom: 8%;height: 15%; ;}
+.content .news-top-list .news-item-view-more{padding:3%;height: 10%;}
+.content .news-top-list .news-item-view-more .view-more a{text-decoration: none;padding: 5px;border-radius: 10px;border: 1px dashed;}
 
 .content .news-top-list .news-item  .news-info{float: left;left: 10%;position: absolute;}
 .content .news-top-list .news-item  .news-img{float: right;right:10%;position: absolute;}
@@ -55,4 +45,4 @@
 .content .news-item .news-info .author-info .pub-time{padding-left:15%;}
 
 
-.footer { top: 700px;}
+.footer { top: 550px;}

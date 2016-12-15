@@ -6,6 +6,26 @@ body{font-family:"MicrosoftYaHei",微软雅黑, 'Microsoft JhengHei' }
 
 .border-bottom{border-bottom:1px solid #CCC;}
 
+.corlorD71E26{color:#D71E26;}
+.color797979 {color:#797979;}
+.color373737 {color:#373737}
+
+.font13{font-size:13px;}
+.font16{font-size:16px;}
+.font18{font-size:18px;}
+.font22{font-size:22px;}
+.font28{font-size:28px;}
+
+.fontweight500{font-weight: 500;}
+.fontweight600{font-weight: 600;}
+.fontweight700{font-weight: 700;}
+
+.wordspace10{word-spacing:10px;}
+.letterspace3{letter-spacing: 3px;}
+.lineheight50{line-height: 50px;}
+.lineheight10{line-height: 10px;}
+
+
 .whiteFontColor{color:#FFF;}
 .defaultFontColor{color:#000;}
 .eatownFontColor{color: #F5A808;}
