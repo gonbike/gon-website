@@ -22,26 +22,37 @@
 
 .content{min-height: 548px; max-width: 1920px; position: relative;    width: 100%;top: 610px;font-family:"MicrosoftYaHei",微软雅黑; }
 
-.content .news-top-list{min-height: 1300px;background: #FFF;}
+.content .news-top-list{min-height: 1500px;background: #FFF;}
 .content .news-top-list .title{text-align: left;margin: 0 10%;padding: 20px;}
 
-.content .news-top-list .news-item{margin-bottom: 8%;height: 15%; ;}
+/*@media(min-width:1250px){
+    .content .news-top-list .news-item{padding:5% 0 15% 0;height: 20%; ;}
+}*/
+
+.content .news-top-list .news-item{padding:2% 0 15% 0;height: 20%; ;}
+@media(max-width:1360px) and (min-width:1250px){
+    .content .news-top-list .news-item{padding:2% 0 15% 0;height: 20%; ;}
+}
+@media(min-width:1360px){
+    .content .news-top-list .news-item{padding:5% 0 10%;height: 20%; ;}
+}
+
 .content .news-top-list .news-item-view-more{padding:3%;height: 10%;}
 .content .news-top-list .news-item-view-more .view-more a{text-decoration: none;padding: 5px;border-radius: 10px;border: 1px dashed;}
 
-.content .news-top-list .news-item  .news-info{float: left;left: 10%;position: absolute;}
+.content .news-top-list .news-item  .news-info{float: left;left: 10%;position: absolute;width: 35%;}
 .content .news-top-list .news-item  .news-img{float: right;right:10%;position: absolute;}
-.content .news-top-list .news-item  .news-img img{width:200px;height:150px;}
+/*.content .news-top-list .news-item  .news-img img{width:200px;height:150px;}*/
 
 .content .news-top-list .news-item  .news-info a {text-decoration: none;}
 
 .content .news-item .news-info .news-title{text-align: left;}
 
-.content .news-item .news-info .news-summary {padding-top:20px;padding-left:3px;}
-.content .news-item .news-info .read-more {padding-top:30px;}
+.content .news-item .news-info .news-summary {padding-top:20px;padding-left:3px;height: 200px;}
+.content .news-item .news-info .read-more {padding-top:20px;}
 .content .news-item .news-info .read-more a {padding:10px;border-radius: 20px;display: block;width:100%;height: 100%;border:1px solid #D71E26;}
 
-.content .news-item .news-info .author-info{padding-top:25px;text-align: left;}
+.content .news-item .news-info .author-info{padding-top:10px;text-align: left;}
 .content .news-item .news-info .author-info .pub-time{padding-left:15%;}
 
 
