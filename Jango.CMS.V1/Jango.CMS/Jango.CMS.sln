@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Jango.CMS.Web", "Jango.CMS.Web\Jango.CMS.Web.xproj", "{830A8149-3258-4F6D-A61E-B3E996FB84C0}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Jango.CMS.ApplicationService", "Jango.CMS.ApplicationService\Jango.CMS.ApplicationService.xproj", "{7CDF6F63-D0C5-4693-8761-B64D092633F5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Jango.CMS.Infrastructure", "Jango.CMS.Infrastructure\Jango.CMS.Infrastructure.xproj", "{A7F9CBAA-FA12-4EB2-8BA2-69010AB4CB38}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Jango.CMS.Domain", "Jango.CMS.Domain\Jango.CMS.Domain.xproj", "{DA968CDE-CC1F-45A2-B9EA-7C304399F44B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Jango.CMS.WebApi", "Jango.CMS.WebApi\Jango.CMS.WebApi.xproj", "{CFA680CF-DF53-496B-B5D0-F3C8CE0995C9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Jango.CMS.Repository", "Jango.CMS.Repository\Jango.CMS.Repository.xproj", "{DEAC9585-AF02-419A-8C55-CA85E2223545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{830A8149-3258-4F6D-A61E-B3E996FB84C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830A8149-3258-4F6D-A61E-B3E996FB84C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830A8149-3258-4F6D-A61E-B3E996FB84C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830A8149-3258-4F6D-A61E-B3E996FB84C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDF6F63-D0C5-4693-8761-B64D092633F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDF6F63-D0C5-4693-8761-B64D092633F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDF6F63-D0C5-4693-8761-B64D092633F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDF6F63-D0C5-4693-8761-B64D092633F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F9CBAA-FA12-4EB2-8BA2-69010AB4CB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F9CBAA-FA12-4EB2-8BA2-69010AB4CB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F9CBAA-FA12-4EB2-8BA2-69010AB4CB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F9CBAA-FA12-4EB2-8BA2-69010AB4CB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA968CDE-CC1F-45A2-B9EA-7C304399F44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA968CDE-CC1F-45A2-B9EA-7C304399F44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA968CDE-CC1F-45A2-B9EA-7C304399F44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA968CDE-CC1F-45A2-B9EA-7C304399F44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA680CF-DF53-496B-B5D0-F3C8CE0995C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA680CF-DF53-496B-B5D0-F3C8CE0995C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA680CF-DF53-496B-B5D0-F3C8CE0995C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA680CF-DF53-496B-B5D0-F3C8CE0995C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAC9585-AF02-419A-8C55-CA85E2223545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAC9585-AF02-419A-8C55-CA85E2223545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAC9585-AF02-419A-8C55-CA85E2223545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAC9585-AF02-419A-8C55-CA85E2223545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
