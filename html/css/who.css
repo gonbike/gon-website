@@ -3,6 +3,7 @@
 .header .header-imgs{position: absolute;}
 .header .header-imgs .imgList { position: relative;   display: block;    margin: 0;    padding: 0;}
 .header .header-imgs .imgList li{float: left; display:inline;}
+.header .header-imgs .imgList img{background-repeat: none;}
 .header .infoList{position: absolute;left: 10px;bottom: 10px;z-index: 30;}
 .header .infoList li{display: none;}
 .header .infoList .infoOn{display: inline;color: white;}
