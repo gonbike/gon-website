@@ -13,7 +13,7 @@
 .info {top:35%;}
 .info .num-of-bikes{padding-top: 25px;}
 .info  .view-detail{padding-top:50px;}
-.info  .view-detail .btn-download{padding:15px;opacity: .8; border-radius: 25px; background: #C54543;}
+.info  .view-detail .btn-download{padding:15px 35px;opacity: .8; border-radius: 25px; background: #C54543;}
 .info .medias {padding-top:50px;}
 .info .medias img{width:25px;height:25px;}
 

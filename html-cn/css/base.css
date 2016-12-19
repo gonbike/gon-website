@@ -31,7 +31,7 @@ body{font-family:"MicrosoftYaHei",微软雅黑, 'Microsoft JhengHei' }
 .eatownFontColor{color: #F5A808;}
 
 .menumContainer{line-height: 150px;height: 150px;}
-.menumContainer .logo{float: left;left:16%;top:4%; width:70px; height:70px; position: absolute; vertical-align: middle;}
+.menumContainer .logo{float: left;left:16%;top:4%; width:116px; height:50px; position: absolute; vertical-align: middle;}
 .menumContainer .menu{ right: 10%; position: absolute;vertical-align: middle;}
 .menumContainer .menu ul{list-style: none;}
 .menumContainer .menu ul li{float: left; padding:0 10px;}
@@ -52,7 +52,7 @@ body{font-family:"MicrosoftYaHei",微软雅黑, 'Microsoft JhengHei' }
 .footer-menu ul li a{text-decoration: none;color:#FFF;}
 .footer-menu ul li:first-child{border-left: none;}
 .footer .logo {min-height: 10%;}
-.footer .logo .logo-img >img{width:60px;height: 60px;}
+.footer .logo .logo-img >img{width:116px;height: 50px;}
 .footer .logo .medias{padding: 2% 0 1% 0;}
 .footer .logo .medias >img{width:20px;height:20px;}
 
