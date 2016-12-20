@@ -1,19 +1,20 @@
 ﻿<html>
 <!--<meta content="charset=utf-8" />-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=11" >
-<meta http-equiv="X-UA-Compatible" content="IE=10" >
-<meta http-equiv="X-UA-Compatible" content="IE=9" >
-<meta http-equiv="X-UA-Compatible" content="IE=8" >
-<meta http-equiv="X-UA-Compatible" content="IE=7" >
+<meta http-equiv="X-UA-Compatible" content="IE=11">
+<meta http-equiv="X-UA-Compatible" content="IE=10">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta http-equiv="X-UA-Compatible" content="IE=7">
 
 <head>
     <title>Who We Are</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/who.css">
+    <link href="http://cdn.bootcss.com/aos/2.1.1/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="images/x-icon" />
 
 </head>
@@ -57,7 +58,7 @@
                     <li><a href="blog.html">Bike-Sharing Blog</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
 
-                    
+
                     <li><span class="language"><a href="#" class="en-language">English</a><a href="#">中</a></span></li>
                 </ul>
             </div>
@@ -71,11 +72,11 @@
     </div>
     <div class="clear"></div>
     <div class="content">
-        <div class="company-container block" data-move-y="200px" data-move-x="-200px">
-            <div class="company-introduce">
+        <div class="company-container block" data-move-y="200px" data-move-x="-200px" >
+            <div class="company-introduce  aos-item"  data-aos="flip-left" data-aos-offset="300" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
                 <h4>Introduction of Gonbike</h4>
                 <span class="company-name"></span>
-                <div class="introduction">
+                <div class="introduction  aos-item__inner">
                     <div>
                         GONBIKE is a new Bicycle sharing system that will launch in China in January of 2017 and worldwide soon after. The advances
                         in Technology will allow a new system that will forgo the current docking system that is now in use.
@@ -88,10 +89,10 @@
                     </div>
                 </div>
             </div>
-            <div class="company-introduce-vers">
+            <div class="company-introduce-vers aos-item"  data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
                 <h4>Vesion And Responsibility</h4>
                 <span class="company-name"></span>
-                <div class="introduction">
+                <div class="introduction   aos-item__inner">
                     <div>
                         GONBIKE is a new Bicycle sharing system that will launch in China in January of 2017 and worldwide soon after. The advances
                         in Technology will allow a new system that will forgo the current docking system that is now in use.
@@ -154,6 +155,7 @@
     </div>
 
     <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/aos/2.1.1/aos.js"></script>
     <script>
         var curIndex = 0;
         var imgLen = 0;
@@ -220,6 +222,11 @@
             }
         })
     </script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+</script>
 </body>
 
 </html>
