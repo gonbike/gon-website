@@ -8,6 +8,7 @@
     <title>关于我们</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/who.css">
+    <link href="http://cdn.bootcss.com/aos/2.1.1/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="images/x-icon" />
 
 </head>
@@ -43,7 +44,7 @@
             </ul>
         </div>
         <div class="menumContainer">
-            <img class="logo" src="img/zhongwenlogo1.png" alt="Logo">
+            <img class="logo" src="img/logo1.png" alt="Logo">
             <div class="menu">
                 <ul>
                     <li><a class="active" href="who.html">关于我们</a></li>
@@ -69,15 +70,15 @@
             <div class="company-introduce">
                 <!--<h4>Introduction of Gonbike</h4>-->
                 <span class="company-name"></span>
-                <div class="introduction">
-                    <div>1940<br/>
-上海永久股份有限公司创始于1940年，曾以生产全国闻名的“永久牌”自行车而誉满全球。作为曾是二十世纪八十年代中国家庭“三大件”之一的自行车，永久见证了中国改革开放30年的发展，也见证了老百姓30年物质生活水平的提高。虽然科技不断进步，交通愈发便利，但“永久”一直在前行，从未曾止步。
+                <div class="introduction  aos-item"  data-aos="flip-left" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700" >
+                    <div><span class="in-title font18 fontweight700">1940</span><br/>
+                        <span class="in-content aos-item_inner">上海永久股份有限公司创始于1940年，曾以生产全国闻名的“永久牌”自行车而誉满全球。作为曾是二十世纪八十年代中国家庭“三大件”之一的自行车，永久见证了中国改革开放30年的发展，也见证了老百姓30年物质生活水平的提高。虽然科技不断进步，交通愈发便利，但“永久”一直在前行，从未曾止步。</span>
                     </div>
-                    <div>2016<br/>
-Gonbike的诞生，是“永久”赋予自行车新的使命，它将以“自行车共享”的模式缔造全新的城市出行方式。同时凭借“永久”自行车核心的研发技术，不断提升自行车骑行的便利性和舒适度。2016年，永久历史照见Gonbike未来，历久弥新。
+                    <div><span class="in-title font18 fontweight700" >2016</span><br/>
+                        <span class="in-content" >Gonbike的诞生，是“永久”赋予自行车新的使命，它将以“自行车共享”的模式缔造全新的城市出行方式。同时凭借“永久”自行车核心的研发技术，不断提升自行车骑行的便利性和舒适度。2016年，永久历史照见Gonbike未来，历久弥新。</span>
                     </div>
-                    <div>10000万<br/>
-半个多世纪以来，永久品牌自行车已生产销售近10000万辆，如今，Gonbike计划在未来再造10000万辆共享单车，覆盖全国乃至全球各大城市，打造全覆盖的单车出行网络，人们可以随时随地go and bike。
+                    <div><span class="in-title font18 fontweight700">10000万</span><br/>
+                        <span class="in-content">半个多世纪以来，永久品牌自行车已生产销售近10000万辆，如今，Gonbike计划在未来再造10000万辆共享单车，覆盖全国乃至全球各大城市，打造全覆盖的单车出行网络，人们可以随时随地go and bike。</span>
                     </div>
                 </div>
             </div>
@@ -123,7 +124,7 @@ Gonbike的诞生，是“永久”赋予自行车新的使命，它将以“自�
     <div class="footer whiteFontColor">
         <div class="logo">
             <div class="logo-img">
-                <img src="img/zhongwenlogo2.png" alt="imgs">
+                <img src="img/logo2.png" alt="imgs">
             </div>
             <div class="medias">
                  <a href="http://weibo.com/eatown" target="_blank"><img src="img/medias/weibo.png" alt="weibo"></a>
@@ -147,11 +148,12 @@ Gonbike的诞生，是“永久”赋予自行车新的使命，它将以“自�
             </ul>
         </div>-->
         <div class="copyright">
-            Copyright &copy;2016 @上海共佰克科技有限公司. All Rights Reserved<br />
+            Copyright &copy;2016 @上海共佰克智能科技有限公司. All Rights Reserved<br />
         </div>
     </div>
 
     <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/aos/2.1.1/aos.js"></script>
     <script>
         var curIndex = 0;
         var imgLen = 0;
@@ -218,6 +220,11 @@ Gonbike的诞生，是“永久”赋予自行车新的使命，它将以“自�
             }
         })
     </script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+</script>
 </body>
 
 </html>

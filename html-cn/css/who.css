@@ -19,7 +19,11 @@
 .company-container .company-introduce{padding: 5% 25%;-moz-animation: isit-info 1.5s ease-in-out both; -webkit-animation: isit-info 1.5s ease-in-out both;animation: isit-info 1.5s ease-in-out both;    }
 /*.company-introduce span{}*/
 .company-container .company-introduce h4{font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
-.company-container .company-introduce .introduction div{line-height: 35px; text-align: left;display: block;}
+.company-container .company-introduce .introduction div{line-height: 35px;display: block;}
+
+.company-container .company-introduce .introduction .in-title{text-align: center;}
+.company-container .company-introduce .introduction .in-content { text-align: left;text-indent: 45px;display:block;}
+
 /*.company-container .company-introduce .introduction div:last-child{text-align: center;}*/
 
 .company-container .company-introduce-vers{padding: 0 25%;padding-bottom: 25px; -moz-animation: isit-info 1.5s ease-in-out both; -webkit-animation: isit-info 1.5s ease-in-out both;animation: isit-info 1.5s ease-in-out both;    }
