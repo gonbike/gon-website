@@ -7,10 +7,10 @@ body{margin: 0;border: 0;}
 /*.header{height: 806px; max-width: 1920px;}*/
 .header .header-imgs{margin: 0;padding: 0;}
 .header .header-imgs .download-mobile{right: 15%;bottom: -20px;list-style: none;}
-.header .header-imgs .download-mobile img{position: absolute;}
-@media (max-width:1600px){
-    /*.header .header-imgs .download-mobile{position: absolute;right: 25%;bottom: -20px;list-style: none;}*/
-}
+.header .header-imgs .download-mobile img{position: absolute;right: 0;}
+
+
+
 /*.header .header-imgs .imgList { position: relative;   display: block;    margin: 0;    padding: 0;}
 .header .header-imgs .imgList li{float: left; display:inline;}*/
 .header .infoList{position: absolute;left: 10px;bottom: 10px;z-index: 30;}

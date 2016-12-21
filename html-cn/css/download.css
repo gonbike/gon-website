@@ -7,7 +7,7 @@ body{margin: 0;border: 0;}
 /*.header{height: 806px; max-width: 1920px;}*/
 .header .header-imgs{margin: 0;padding: 0;}
 .header .header-imgs .download-mobile{right: 15%;bottom: -20px;list-style: none;}
-.header .header-imgs .download-mobile img{position: absolute;}
+.header .header-imgs .download-mobile img{position: absolute;right: 0;}
 
 
 
