@@ -7,34 +7,15 @@
 <head>
     <title>下载APP</title>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/download.css">
+    <link rel="stylesheet" href="css/download1.css">
+    <link href="http://cdn.bootcss.com/aos/2.1.1/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="images/x-icon" />
 
 </head>
 
 <body>
     <div class="header defaultFontColor border-bottom">
-        <div class="header-imgs">
-
-            <!--图片部分 -->
-            <ul class="download-mobile">
-
-                <li>
-                    <!--<img src="img/download/shouji.png" alt="bg1">-->
-                </li>
-                <!--<li>
-                    <img src="img/about/bike.png" alt="bike">
-                </li>
-                <li>
-                    <img src="img/about/isitbg.png" alt="isisbg">
-                </li>-->
-                <!--<li>
-                    <img src="img/about/Intro.png" alt="Intro">
-                </li>-->
-            </ul>
-        </div>
-
-        <div class="menumContainer">
+          <div class="menumContainer">
             <img class="logo" src="img/logo1.png" alt="Logo">
             <div class="menu">
                 <ul>
@@ -50,6 +31,25 @@
                     <!--<li><span class="language"><a href="#" class="en-language">English</a><a href="#">中</a></span></li>-->
                 </ul>
             </div>
+        </div>
+        <div class="header-imgs">
+
+            <!--图片部分 -->
+            <ul class="download-mobile">
+
+                <li>
+                    <img src="img/download/shouji.png" alt="bg1">
+                </li>
+                <!--<li>
+                    <img src="img/about/bike.png" alt="bike">
+                </li>
+                <li>
+                    <img src="img/about/isitbg.png" alt="isisbg">
+                </li>-->
+                <!--<li>
+                    <img src="img/about/Intro.png" alt="Intro">
+                </li>-->
+            </ul>
         </div>
         <div class="info whiteFontColor">
             <div class="desire">
@@ -92,44 +92,44 @@
     <div class="content">
         <div class="work-container section-steps" data-move-y="200px" data-move-x="-200px">
             <div class="intro">
-                <div class="info">
-                    <div class="title">
+                <div class="info  aos-item"  data-aos="flip-left" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
+                    <div class="title" >
                         就在您身边
                     </div>
-                    <div class="info-content font18">
+                    <div class="info-content font18 aos-item_inner">
                         打开app，即可看到您身边的共佰单车（支持预约，保留15分钟）
                     </div>
                 </div>
                 <img src="img/download/1.png" alt="">
             </div>
             <div class="intro">
-                <div class="info">
+                <div class="info  aos-item"  data-aos="flip-down" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700" >
                     <div class="title">
                         扫码开锁
                     </div>
-                    <div class="info-content font18">
+                    <div class="info-content font18  aos-item_inner">
                         点击共佰单车app首页的“扫码开锁”，扫描车身上的二维码，自动开锁，即开即用
                     </div>
                 </div>
                 <img src="img/download/2.png" alt="">
             </div>
             <div class="intro">
-                <div class="info">
+                <div class="info  aos-item"  data-aos="flip-right" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700" >
                     <div class="title">
                         锁车即还，方便快捷
                     </div>
-                    <div class="info-content font18">
+                    <div class="info-content font18 aos-item_inner">
                         用车完毕，将车停放至道路两侧安全区域，手动上锁即可结束骑行，完成还车
                     </div>
                 </div>
                 <img src="img/download/3.png" alt="">
             </div>
             <div class="intro">
-                <div class="info">
-                    <div class="title">
+                <div class="info   aos-item"  data-aos="flip-up" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
+                    <div class="title" >
                         双向充电，与人方便
                     </div>
-                    <div class="info-content font18">
+                    <div class="info-content font18  aos-item_inner">
                         共佰单车奖励为车充电的用户，也支持为用户手机充电，方便你我他，出行靠大家
                     </div>
                 </div>
@@ -170,7 +170,12 @@
         </div>
     </div>
 
-
+    <script src="http://cdn.bootcss.com/aos/2.1.1/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+</script>
 </body>
 
 </html>

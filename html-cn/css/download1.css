@@ -1,12 +1,13 @@
 body{margin: 0;border: 0;}
 /*.header{height:100%; background: url(../img/about/bg1.png) no-repeat;max-height: 610px; position: fixed;max-width: 1920px;position: fixed;}*/
 /*.header{height:100%;max-height: 806px;background: url("../img/download/beijintu.png") no-repeat; width: 1920px;}*/
-.header{height:100%;max-height: 806px;background: url("../img/download/bcg1.png") no-repeat; width: 1920px;}
-/*.header{height: 806px; width: 1920px;background: url("../img/download/bcg1.png") no-repeat;}*/
-.header{height: 806px; width: 1920px;}
-.header .header-imgs{position: absolute;margin: 0;padding: 0;}
-.header .header-imgs .download-mobile{position: absolute;right: 15%;bottom: -20px;list-style: none;}
-
+/*.header{height:100%;max-height: 806px;background: url("../img/download/bcg1.png") no-repeat; max-width: 1920px; }*/
+/*.header{height: 806px; max-width: 1920px;background: url("../img/download/bcg1.png") no-repeat;}*/
+.header{height: 806px; max-width: 1920px;background: url("../img/download/beijintu.png") no-repeat;}
+/*.header{height: 806px; max-width: 1920px;}*/
+.header .header-imgs{margin: 0;padding: 0;}
+.header .header-imgs .download-mobile{right: 15%;bottom: -20px;list-style: none;}
+.header .header-imgs .download-mobile img{position: absolute;}
 @media (max-width:1600px){
     /*.header .header-imgs .download-mobile{position: absolute;right: 25%;bottom: -20px;list-style: none;}*/
 }
@@ -33,19 +34,19 @@ body{margin: 0;border: 0;}
 
 .content{max-width: 1920px;margin-top: -5px; font-family:"MicrosoftYaHei",微软雅黑; }
 .content .work-container{min-height: 500px;padding-top:-5px;max-width: 1920px;color:#FFF;}
-.content .work-container .intro1{height: 750px;}
-.content .work-container .intro{height: 750px;position: relative;}
+.content .work-container .intro{height: 750px;width: 100%;max-width: 1920px;position: relative;}
 .content .work-container .intro .info {
     height: 30%;width: 50%;
 }
 .content .work-container .info .info-content{
     padding-top:50px;
 }
-.content .work-container .intro2{height: 750px;}
-.content .work-container .intro3{height: 750px;}
-.content .work-container .intro4{height: 750px;}
+.content .work-container .intro1{background: url("../img/download/1.png");}
+.content .work-container .intro2{background: url("../img/download/2.png");}
+.content .work-container .intro3{background: url("../img/download/3.png");}
+.content .work-container .intro4{background: url("../img/download/4.png");}
 
-.content .work-container div >img{width: 1920px;}
+.content .work-container .intro >img{max-width: 1920px;width: 100%;height: 100%;}
 
 
 
