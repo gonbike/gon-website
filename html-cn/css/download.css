@@ -1,0 +1,56 @@
+body{margin: 0;border: 0;}
+/*.header{height:100%; background: url(../img/about/bg1.png) no-repeat;max-height: 610px; position: fixed;max-width: 1920px;position: fixed;}*/
+/*.header{height:100%;max-height: 806px;background: url("../img/download/beijintu.png") no-repeat; width: 1920px;}*/
+.header{height:100%;max-height: 806px;background: url("../img/download/bcg1.png") no-repeat; width: 1920px;}
+/*.header{height: 806px; width: 1920px;background: url("../img/download/bcg1.png") no-repeat;}*/
+.header{height: 806px; width: 1920px;}
+.header .header-imgs{position: absolute;margin: 0;padding: 0;}
+.header .header-imgs .download-mobile{position: absolute;right: 15%;bottom: -20px;list-style: none;}
+
+@media (max-width:1600px){
+    /*.header .header-imgs .download-mobile{position: absolute;right: 25%;bottom: -20px;list-style: none;}*/
+}
+/*.header .header-imgs .imgList { position: relative;   display: block;    margin: 0;    padding: 0;}
+.header .header-imgs .imgList li{float: left; display:inline;}*/
+.header .infoList{position: absolute;left: 10px;bottom: 10px;z-index: 30;}
+.header .infoList li{display: none;}
+.header .infoList .infoOn{display: inline;color: white;}
+.header .indexList{position: absolute;left: 45%;bottom: 5px;z-index: 30;}
+.header .indexList li{float: left;margin-right: 15px;padding: 2px 4px;color:#fff;cursor: pointer;}
+.header .indexList .indexOn{color: red;font-weight: bold;}
+
+.info {top:30%; left: 0;font-size: 28px;}
+/*info .desire{}*/
+.info .num-of-bikes{padding-top: 25px;}
+.info  .view-detail{cursor:auto;}
+.info  .view-detail .btn-download{padding:15px 35px;opacity: .8; border-radius: 25px; background: #C54543;}
+.info .medias {padding-top:50px;}
+.info .medias img{width:25px;height:25px;}
+
+.info .view-detail .app-ic{padding: 25px;}
+.info .view-detail .app-ic img{margin: 5px;}
+
+
+.content{max-width: 1920px;margin-top: -5px; font-family:"MicrosoftYaHei",微软雅黑; }
+.content .work-container{min-height: 500px;padding-top:-5px;max-width: 1920px;color:#FFF;}
+.content .work-container .intro1{height: 750px;}
+.content .work-container .intro{height: 750px;position: relative;}
+.content .work-container .intro .info {
+    height: 30%;width: 50%;
+}
+.content .work-container .info .info-content{
+    padding-top:50px;
+}
+.content .work-container .intro2{height: 750px;}
+.content .work-container .intro3{height: 750px;}
+.content .work-container .intro4{height: 750px;}
+
+.content .work-container div >img{width: 1920px;}
+
+
+
+
+
+
+
+.footer {position: relative;}

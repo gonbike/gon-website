@@ -33,6 +33,10 @@ body{font-family:"MicrosoftYaHei",微软雅黑, 'Microsoft JhengHei' }
 .menumContainer{line-height: 150px;height: 150px;}
 .menumContainer .logo{float: left;left:16%;top:4%; width:116px; height:50px; position: absolute; vertical-align: middle;}
 .menumContainer .menu{ right: 10%; position: absolute;vertical-align: middle;}
+@media(max-width:1600px) and (min-width:1450px){
+   .menumContainer .menu{ right: 20%; position: absolute;vertical-align: middle;} 
+}
+
 .menumContainer .menu ul{list-style: none;}
 .menumContainer .menu ul li{float: left; padding:0 15px;}
 .menumContainer .menu ul li a{font-size:20px; text-decoration: none;color:#FFF;}
