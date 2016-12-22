@@ -36,7 +36,7 @@
 /*.company-container .company-introduce-vers .medias img{ width:20px;height:20px;margin: 10px 10px 0 0;}*/
 
 
-.company-isit{height:735px;background:url(../img/about/isitbg.png);margin: 0;}
+.company-isit{height:735px;background:url(../img/about/isitbg.jpg);margin: 0;}
 .company-isit h4{padding:20px;font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
 .company-isit .company-isit-info{padding:8%; -moz-animation: isit-info 2.5s ease-in-out both; -webkit-animation: isit-info 2.5s ease-in-out both;animation: isit-info 2.5s ease-in-out both;
     }
