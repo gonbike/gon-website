@@ -20,7 +20,7 @@ body{margin: 0;border: 0;}
 .header .indexList li{float: left;margin-right: 15px;padding: 2px 4px;color:#fff;cursor: pointer;}
 .header .indexList .indexOn{color: red;font-weight: bold;}
 
-.info {top:30%; left: 0;font-size: 28px;}
+.info {top:30%; left: 15%;font-size: 28px;}
 /*info .desire{}*/
 .info .num-of-bikes{padding-top: 25px;}
 .info  .view-detail{cursor:auto;}
