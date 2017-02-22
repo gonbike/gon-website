@@ -1,301 +1,228 @@
-﻿<!DOCTYPE html>
-<html>
-<!--<meta content="charset=utf-8" />-->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<head>
-    <title>共佰单车-下载</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/work.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="images/x-icon" />
-
-</head>
-
-<body>
-    <div class="header defaultFontColor border-bottom">
-        <div class="header-imgs">
-
-            <!-- 图片部分 -->
-            <ul class="imgList">
-
-                <li>
-                    <img src="img/about/bg1.png" alt="bg1">
-                </li>
-                <!--<li>
-                    <img src="img/about/bike.png" alt="bike">
-                </li>
-                <li>
-                    <img src="img/about/isitbg.png" alt="isisbg">
-                </li>-->
-                <!--<li>
-                    <img src="img/about/Intro.png" alt="Intro">
-                </li>-->
-            </ul>
-        </div>
-        <div>
-            <!-- 图片右下角序号部分 -->
-            <!-- <ul class="indexList">
-                <li class="indexOn"></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>-->
-        </div>
-        <div class="menumContainer">
-            <img class="logo" src="img/logo1.png" alt="Logo">
-            <div class="menu">
-                <ul>
-                    <!--<li><a href="who.html">关于我们</a></li>
-                    <li><a class="active" href="work.html">下载App</a></li>
-                    <li><a href="blog.html">资讯</a></li>
-                    <li><a href="contact.html">联系我们</a></li>-->
-                    <li><a href="who.html">关于我们</a></li>
-                    <li><a class="active" href="download.html">下载App</a></li>
-                    <li><a href="#">资讯</a></li>
-                    <li><a href="contact.html">联系我们</a></li>
-
-                    <!--<li><span class="language"><a href="#" class="en-language">English</a><a href="#">中</a></span></li>-->
-                </ul>
+﻿/*body{width:100%;height: 100%;margin:0; text-align: center;width: 1920px; margin: 0 auto;}*/ body { width: 100%; height: 100%; margin: 0; text-align: center; max-width: 1920px; margin: 0 auto; } body { font-family: "MicrosoftYaHei", 微软雅黑, 'Microsoft
+JhengHei' } .header { width: 100%; height: 20%; } .border-bottom { border-bottom: 1px solid #CCC; } .corlorD71E26 { color: #D71E26; } .color797979 { color: #797979; } .color373737 { color: #373737 } .font13 { font-size: 13px; } .font16 { font-size: 16px;
+} .font18 { font-size: 18px; } .font22 { font-size: 22px; } .font28 { font-size: 28px; } .fontweight500 { font-weight: 500; } .fontweight600 { font-weight: 600; } .fontweight700 { font-weight: 700; } .wordspace10 { word-spacing: 10px; } .letterspace3
+{ letter-spacing: 3px; } .lineheight50 { line-height: 50px; } .lineheight10 { line-height: 10px; } .whiteFontColor { color: #FFF; } .defaultFontColor { color: #000; } .eatownFontColor { color: #F5A808; } .menumContainer { line-height: 150px; height: 150px;
+} .menumContainer .logo { float: left; left: 16%; top: 4%; width: 116px; height: 50px; position: absolute; vertical-align: middle; } .menumContainer .menu { right: 10%; position: absolute; vertical-align: middle; } @media(max-width:1600px) and (min-width:1450px)
+{ .menumContainer .menu { right: 20%; position: absolute; vertical-align: middle; } } .menumContainer .menu ul { list-style: none; } .menumContainer .menu ul li { float: left; padding: 0 15px; } .menumContainer .menu ul li a { font-size: 20px; text-decoration:
+none; color: #FFF; } .menumContainer .menu .active { border-bottom: 2px solid #f00000; } .menumContainer .menu .language a { padding: 0 10px; } .menumContainer .menu .language .en-language { border-right: 1px solid #F5A808; } .clear { float: none; } .toggleC-Inf
+{ opacity: 0.9; } .footer { margin-top: -10px; padding-top: 25px; background: #211B16; width: 100%; height: auto; position: relative; max-width: 1920px; } .footer-menu { height: 35px; padding-left: 30%; text-align: center; padding-bottom: 10px; } .footer-menu
+ul { list-style: none; } .footer-menu ul li { float: left; padding: 0 20px; border-left: 2px solid #aaa; } .footer-menu ul li a { text-decoration: none; color: #FFF; } .footer-menu ul li:first-child { border-left: none; } .footer .logo { min-height: 10%;
+} .footer .logo .logo-img>img { width: 116px; height: 50px; } .footer .logo .medias { padding: 2% 0 1% 0; } .footer .logo .medias>img { width: 20px; height: 20px; } .medias a { text-decoration: none; } .medias img { width: 20px; height: 20px; margin:
+10px 10px 0 0; text-decoration: none; border: none; } .weixin-mp:hover {} .weixin-img { width: 150px; height: 150px; position: absolute; bottom: 16px; right: 25%; display: none; } .weixin-img img { width: 150px !important; height: 150px !important; }
+.copyright { width: 100%; height: 35px; bottom: 0; position: relative; } .copyright img { width: 300px; height: 35px; } .info { font-size: 35px; position: absolute; margin: 0 auto; top: 50%; margin: auto; left: auto; right: auto; left: 30%; right: 30%
+} .info .view-detail { cursor: pointer; font-size: 20px; margin-top: 20px; } .info .view-detail a { text-decoration: none; color: #FFF; } .info .desire { transform-style: preserve-3d; perspective: 600; -webkit-transform-style: preserve-3d; /*animation:
+yspin 6s linear infinite ; -webkit-animation: yspin 6s linear infinite ; */ } .info .view-detail { transform-style: preserve-3d; perspective: 600; -webkit-transform-style: preserve-3d; /*animation: yspin 6s linear infinite; -webkit-animation: yspin 6s
+linear infinite ; */ }
+<h4>Gonbike Car Steps</h4>
+<span class="work-name"></span>
+<div class="steps-list">
+    <div class="step-card">
+        <div class="step-nu">
+            <div class="number">
+                1
+            </div>
+            <div class="img">
+                <img src="img/works/Download.png" alt="iApp">
             </div>
         </div>
-        <div class="info whiteFontColor">
-            <div class="desire">
-                永不止步，历久弥新<br />
-            </div>
-            <div class="num-of-bikes font28">
-                <!--Number Of bicycles : <label for="">188880</label>-->
-            </div>
-            <div class="view-detail"><a href="#" class="btn-download">下载 App</a></div>
-            <div class="medias">
-                <a href="http://weibo.com/eatown" target="_blank"><img src="img/medias/weibo.png" alt="weibo"></a>
-                <!--<a href="#"><img src="img/medias/twitter1.png" alt="twitter"> </a>
-                <a href="#"><img src="img/medias/ins1.png" alt="facebook"> </a>
-                <a href="#"><img src="img/medias/icon1.png" alt="facebook"> </a>
-                <a href="#"><img src="img/medias/guge1.png" alt="facebook"> </a>-->
-                <a href="#"><img src="img/medias/weixin.png" alt="facebook">
-                    <div class="media-img">
-
-                    </div>
-                </a>
-            </div>
+        <div class="step-action">
+            Download
+        </div>
+        <div class="action-desc">
+            Download Gonbike App
         </div>
     </div>
-    <div class="clear"></div>
-    <div class="content">
-        <div class="work-container section-steps" data-move-y="200px" data-move-x="-200px">
-            <div class="work-introduce">
-                <h4>Gonbike Car Steps</h4>
-                <span class="work-name"></span>
-                <div class="steps-list">
-                    <div class="step-card">
-                        <div class="step-nu">
-                            <div class="number">
-                                1
-                            </div>
-                            <div class="img">
-                                <img src="img/works/Download.png" alt="iApp">
-                            </div>
-                        </div>
-                        <div class="step-action">
-                            Download
-                        </div>
-                        <div class="action-desc">
-                            Download Gonbike App
-                        </div>
+    <div class="step-card">
+        <div class="step-nu">
+            <div class="number">
+                2
+            </div>
+            <div class="img">
+                <img src="img/works/registration.png" alt="iApp">
+            </div>
+        </div>
+        <div class="step-action">
+            Registration
+        </div>
+        <div class="action-desc">
+            Finish Registration
+        </div>
+    </div>
+    <div class="step-card">
+        <div class="step-nu">
+            <div class="number">
+                3
+            </div>
+            <div class="img">
+                <img src="img/works/nearby.png" alt="iApp">
+            </div>
+        </div>
+        <div class="step-action">
+            Nearby
+        </div>
+        <div class="action-desc">
+            Find a Gonbike Nearby
+        </div>
+    </div>
+    <div class="step-card">
+        <div class="step-nu">
+            <div class="number">
+                4
+            </div>
+            <div class="img">
+                <img src="img/works/Unlock.png" alt="iApp">
+            </div>
+        </div>
+        <div class="step-action">
+            Unlock
+        </div>
+        <div class="action-desc">
+            Unlock Gonbike Bicycle
+        </div>
+    </div>
+    <div class="step-card">
+        <div class="step-nu">
+            <div class="number">
+                5
+            </div>
+            <div class="img">
+                <img src="img/works/Return.png" alt="iApp">
+            </div>
+        </div>
+        <div class="step-action">
+            Return
+        </div>
+        <div class="action-desc">
+            Return Gonbike Bicycle
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="section-about">
+    <div class="section-about-card-list">
+        <div class="section-about-card about">
+            <div class="layout">
+                <div class="section-info">
+                    <h4>About</h4>
+                    <div class="card-info font13">
+                        Gonbike Car Description on the Introduction
                     </div>
-                    <div class="step-card">
-                        <div class="step-nu">
-                            <div class="number">
-                                2
-                            </div>
-                            <div class="img">
-                                <img src="img/works/registration.png" alt="iApp">
-                            </div>
-                        </div>
-                        <div class="step-action">
-                            Registration
-                        </div>
-                        <div class="action-desc">
-                            Finish Registration
-                        </div>
-                    </div>
-                    <div class="step-card">
-                        <div class="step-nu">
-                            <div class="number">
-                                3
-                            </div>
-                            <div class="img">
-                                <img src="img/works/nearby.png" alt="iApp">
-                            </div>
-                        </div>
-                        <div class="step-action">
-                            Nearby
-                        </div>
-                        <div class="action-desc">
-                            Find a Gonbike Nearby
-                        </div>
-                    </div>
-                    <div class="step-card">
-                        <div class="step-nu">
-                            <div class="number">
-                                4
-                            </div>
-                            <div class="img">
-                                <img src="img/works/Unlock.png" alt="iApp">
-                            </div>
-                        </div>
-                        <div class="step-action">
-                            Unlock
-                        </div>
-                        <div class="action-desc">
-                            Unlock Gonbike Bicycle
-                        </div>
-                    </div>
-                    <div class="step-card">
-                        <div class="step-nu">
-                            <div class="number">
-                                5
-                            </div>
-                            <div class="img">
-                                <img src="img/works/Return.png" alt="iApp">
-                            </div>
-                        </div>
-                        <div class="step-action">
-                            Return
-                        </div>
-                        <div class="action-desc">
-                            Return Gonbike Bicycle
-                        </div>
+                    <div class="detail font13">
+                        <a href="#" class="btn">View Detail</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section-about">
-            <div class="section-about-card-list">
-                <div class="section-about-card about">
-                    <div class="layout">
-                        <div class="section-info">
-                            <h4>About</h4>
-                            <div class="card-info font13">
-                                Gonbike Car Description on the Introduction
-                            </div>
-                            <div class="detail font13">
-                                <a href="#" class="btn">View Detail</a>
-                            </div>
-                        </div>
+        <div class="section-about-card on">
+            <div class="layout">
+                <div class="section-info">
+                    <h4>On The</h4>
+                    <div class="card-info font13">
+                        Introduction and use the joint beans
                     </div>
-                </div>
-                <div class="section-about-card on">
-                    <div class="layout">
-                        <div class="section-info">
-                            <h4>On The</h4>
-                            <div class="card-info font13">
-                                Introduction and use the joint beans
-                            </div>
-                            <div class="detail font13">
-                                <a href="#" class="btn">View Detail</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section-rules" data-move-y="200px" data-move-x="-200px">
-            <div class="rules-introduce">
-                <h4>Rules of the Road</h4>
-                <span class="rules-name"></span>
-                <div class="card-list">
-                    <div class="card-item">
-                        <div class="step-nu">
-                            <div class="number">
-                                1
-                            </div>
-                            <div class="img">
-                                <img src="img/works/Download.png" alt="iApp">
-                            </div>
-                        </div>
-                        <div class="step-action">
-                            Download
-                        </div>
-                        <div class="action-desc">
-                            Download Gonbike App
-                        </div>
-                    </div>
-                    <div class="card-item">
-                        <div class="step-nu">
-                            <div class="number">
-                                1
-                            </div>
-                            <div class="img">
-                                <img src="img/works/Download.png" alt="iApp">
-                            </div>
-                        </div>
-                        <div class="step-action">
-                            Download
-                        </div>
-                        <div class="action-desc">
-                            Download Gonbike App
-                        </div>
-                    </div>
-                    <div class="card-item">
-                        <div class="step-nu">
-                            <div class="number">
-                                1
-                            </div>
-                            <div class="img">
-                                <img src="img/works/Download.png" alt="iApp">
-                            </div>
-                        </div>
-                        <div class="step-action">
-                            Download
-                        </div>
-                        <div class="action-desc">
-                            Download Gonbike App
-                        </div>
-                    </div>
-                    <div class="card-item">
-                        <div class="step-nu">
-                            <div class="number">
-                                1
-                            </div>
-                            <div class="img">
-                                <img src="img/works/Download.png" alt="iApp">
-                            </div>
-                        </div>
-                        <div class="step-action">
-                            Download
-                        </div>
-                        <div class="action-desc">
-                            Download Gonbike App
-                        </div>
+                    <div class="detail font13">
+                        <a href="#" class="btn">View Detail</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="footer whiteFontColor">
-        <div class="logo">
-            <div class="logo-img">
-                <img src="img/logo2.png" alt="imgs">
+<div class="section-rules" data-move-y="200px" data-move-x="-200px">
+    <div class="rules-introduce">
+        <h4>Rules of the Road</h4>
+        <span class="rules-name"></span>
+        <div class="card-list">
+            <div class="card-item">
+                <div class="step-nu">
+                    <div class="number">
+                        1
+                    </div>
+                    <div class="img">
+                        <img src="img/works/Download.png" alt="iApp">
+                    </div>
+                </div>
+                <div class="step-action">
+                    Download
+                </div>
+                <div class="action-desc">
+                    Download Gonbike App
+                </div>
             </div>
-            <div class="medias">
-                <a href="http://weibo.com/eatown" target="_blank"><img src="img/medias/weibo.png" alt="weibo"></a>
-                <!--<a href="#"><img src="img/medias/twitter1.png" alt="twitter"> </a>
+            <div class="card-item">
+                <div class="step-nu">
+                    <div class="number">
+                        1
+                    </div>
+                    <div class="img">
+                        <img src="img/works/Download.png" alt="iApp">
+                    </div>
+                </div>
+                <div class="step-action">
+                    Download
+                </div>
+                <div class="action-desc">
+                    Download Gonbike App
+                </div>
+            </div>
+            <div class="card-item">
+                <div class="step-nu">
+                    <div class="number">
+                        1
+                    </div>
+                    <div class="img">
+                        <img src="img/works/Download.png" alt="iApp">
+                    </div>
+                </div>
+                <div class="step-action">
+                    Download
+                </div>
+                <div class="action-desc">
+                    Download Gonbike App
+                </div>
+            </div>
+            <div class="card-item">
+                <div class="step-nu">
+                    <div class="number">
+                        1
+                    </div>
+                    <div class="img">
+                        <img src="img/works/Download.png" alt="iApp">
+                    </div>
+                </div>
+                <div class="step-action">
+                    Download
+                </div>
+                <div class="action-desc">
+                    Download Gonbike App
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="footer whiteFontColor">
+    <div class="logo">
+        <div class="logo-img">
+            <img src="img/logo2.png" alt="imgs">
+        </div>
+        <div class="medias">
+            <a href="http://weibo.com/gonbike" target="_blank"><img src="img/medias/weibo.png" alt="weibo"></a>
+            <!--<a href="#"><img src="img/medias/twitter1.png" alt="twitter"> </a>
                 <a href="#"><img src="img/medias/ins1.png" alt="facebook"> </a>
                 <a href="#"><img src="img/medias/icon1.png" alt="facebook"> </a>
                 <a href="#"><img src="img/medias/guge1.png" alt="facebook"> </a>-->
-                <a href="#"><img src="img/medias/weixin.png" alt="facebook">
-                    <div class="media-img">
-
-                    </div>
-                </a>
-            </div>
+            <a href="javascript:void(0);" class="weixin-mp"><img src="img/medias/weixin.png" alt="facebook">
+                <div class="media-img weixin-img">
+                    <img class="weixin-img" src="img/medias/wxmp.jpg" />
+                </div>
+            </a>
         </div>
-        <!--<div class="footer-menu">
+    </div>
+    <!--<div class="footer-menu">
             <ul>
                 <li><a href="about.html">Who We Are</a></li>
                 <li><a href="about.html#contactu">How It Works</a></li>
@@ -303,12 +230,21 @@
                 <li><a href="cooperate.html">Contact Us</a></li>
             </ul>
         </div>-->
-        <div class="copyright">
-            Copyright &copy;2016 @上海共佰克智能科技有限公司. All Rights Reserved<br />
-        </div>
+    <div class="copyright">
+        Copyright &copy;2016 @上海共佰克智能科技有限公司. 沪ICP备17000373号-1 All Rights Reserved<br />
     </div>
+</div>
 
 
 </body>
+
+<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(".weixin-mp").mouseenter(function() {
+        $(".weixin-img").show();
+    }).mouseleave(function() {
+        $(".weixin-img").hide();
+    })
+</script>
 
 </html>

@@ -73,16 +73,14 @@
     </div>
     <div class="clear"></div>
     <div class="content">
-        <div class="company-container block" data-move-y="200px" data-move-x="-200px" >
-            <div class="company-introduce  aos-item"  data-aos="flip-left" data-aos-offset="300" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
+        <div class="company-container block" data-move-y="200px" data-move-x="-200px">
+            <div class="company-introduce  aos-item" data-aos="flip-left" data-aos-offset="300" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
                 <h4>Introduction of Gonbike</h4>
                 <span class="company-name"></span>
                 <div class="introduction  aos-item__inner">
                     <div>
-                        GONBIKE is a new Bicycle sharing system that will launch in China in January of 2017 and worldwide soon after. The advances
-                        in Technology will allow a new system that will forgo the current docking system that is now in use.
-                        This will allow users the greatest flexibility to transport themselves from one place to another
-                        without requiring to identify a docking system to return the bike too.
+                        GONBIKE is a new Bicycle sharing system that will launch in China in January of 2017 and worldwide soon after. The advances in Technology will allow a new system that will forgo the current docking system that is now in use. This will allow users the
+                        greatest flexibility to transport themselves from one place to another without requiring to identify a docking system to return the bike too.
                     </div>
                     <div>Now User will be able to leave the bike anywhere in the city for their convenience.</div>
                     <div>
@@ -90,15 +88,13 @@
                     </div>
                 </div>
             </div>
-            <div class="company-introduce-vers aos-item"  data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
+            <div class="company-introduce-vers aos-item" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
                 <h4>Vesion And Responsibility</h4>
                 <span class="company-name"></span>
                 <div class="introduction   aos-item__inner">
                     <div>
-                        GONBIKE is a new Bicycle sharing system that will launch in China in January of 2017 and worldwide soon after. The advances
-                        in Technology will allow a new system that will forgo the current docking system that is now in use.
-                        This will allow users the greatest flexibility to transport themselves from one place to another
-                        without requiring to identify a docking system to return the bike too.
+                        GONBIKE is a new Bicycle sharing system that will launch in China in January of 2017 and worldwide soon after. The advances in Technology will allow a new system that will forgo the current docking system that is now in use. This will allow users the
+                        greatest flexibility to transport themselves from one place to another without requiring to identify a docking system to return the bike too.
                     </div>
                     <div>Now User will be able to leave the bike anywhere in the city for their convenience.</div>
                     <div>
@@ -160,7 +156,7 @@
     <script>
         var curIndex = 0;
         var imgLen = 0;
-        $(function () {
+        $(function() {
             var imgList = $(".header-imgs img");
             var indexList = $(".header .indexList");
             console.log(imgList)
@@ -169,34 +165,34 @@
                 for (var i = 0; i < imgLen; i++) {
                     $(indexList).append("<li></li>");
                 }
-                $(".header-imgs .imgList").width(imgLen*1920 +"px");
+                $(".header-imgs .imgList").width(imgLen * 1920 + "px");
                 console.log($(indexList));
             }
 
             // 定时器自动变换2.5秒每次
-            var autoChange = setInterval(function () {
-               if (curIndex < imgLen - 1) {
-                   curIndex++;
-               } else {
-                   curIndex = 0;
-               }
-               //调用变换处理函数
-               changeTo(curIndex);
-            }, 2500);
+            var autoChange = setInterval(function() {
+                if (curIndex < imgLen - 1) {
+                    curIndex++;
+                } else {
+                    curIndex = 0;
+                }
+                //调用变换处理函数
+                changeTo(curIndex);
+            }, 3500);
 
             //对右下角按钮index进行事件绑定处理等
-            $(".indexList").find("li").each(function (item) {
-                $(this).hover(function () {
+            $(".indexList").find("li").each(function(item) {
+                $(this).hover(function() {
                     clearInterval(autoChange);
                     changeTo(item);
                     curIndex = item;
-                }, function () {
+                }, function() {
                     autoChangeAgain();
                 });
             });
             //清除定时器时候的重置定时器--封装
             function autoChangeAgain() {
-                autoChange = setInterval(function () {
+                autoChange = setInterval(function() {
                     if (curIndex < imgLen - 1) {
                         curIndex++;
                     } else {
@@ -217,17 +213,19 @@
                 //console.log($(".header-imgs img"));
                 //$(".header-imgs img").append(cuobj);
 
-                $(".header-imgs .imgList").animate({ left: "-" + goLeft + "px" }, 500);
+                $(".header-imgs .imgList").animate({
+                    left: "-" + goLeft + "px"
+                }, 500);
                 //$(".infoList").find("li").removeClass("infoOn").eq(num).addClass("infoOn");
                 $(".indexList").find("li").removeClass("indexOn").eq(num).addClass("indexOn");
             }
         })
     </script>
     <script>
-      AOS.init({
-        easing: 'ease-in-out-sine'
-      });
-</script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
 </body>
 
 </html>

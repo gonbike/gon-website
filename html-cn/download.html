@@ -16,7 +16,7 @@
 
 <body>
     <div class="header defaultFontColor border-bottom">
-          <div class="menumContainer">
+        <div class="menumContainer">
             <img class="logo" src="img/logo1.png" alt="Logo">
             <div class="menu">
                 <ul>
@@ -24,7 +24,7 @@
                     <li><a class="active" href="work.html">下载App</a></li>
                     <li><a href="blog.html">资讯</a></li>
                     <li><a href="contact.html">联系我们</a></li>-->
-                    <li><a href="who.html">关于我们</a></li>
+                    <!--<li><a href="who.html">关于我们</a></li>-->
                     <li><a class="active" href="download.html">下载App</a></li>
                     <li><a href="#">资讯</a></li>
                     <li><a href="contact.html">联系我们</a></li>
@@ -65,7 +65,7 @@
             <div class="view-detail">
                 <!--<a href="#" class="btn-download">下载 App</a>-->
                 <div class="qrcode-img">
-                    <img src="img/download/erweima.png" alt="">
+                    <img width="198px" height="190px" src="img/download/1156672526.jpg" alt="">
                 </div>
                 <div class="app-ic font13">
                     <img src="img/download/android.png" alt="">
@@ -93,8 +93,8 @@
     <div class="content">
         <div class="work-container section-steps" data-move-y="200px" data-move-x="-200px">
             <div class="intro">
-                <div class="info  aos-item"  data-aos="flip-left" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
-                    <div class="title" >
+                <div class="info  aos-item" data-aos="flip-left" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
+                    <div class="title">
                         就在您身边
                     </div>
                     <div class="info-content font18 aos-item_inner">
@@ -104,7 +104,7 @@
                 <img src="img/download/1.png" alt="">
             </div>
             <div class="intro">
-                <div class="info  aos-item"  data-aos="flip-down" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700" >
+                <div class="info  aos-item" data-aos="flip-down" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
                     <div class="title">
                         扫码开锁
                     </div>
@@ -115,7 +115,7 @@
                 <img src="img/download/2.png" alt="">
             </div>
             <div class="intro">
-                <div class="info  aos-item"  data-aos="flip-right" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700" >
+                <div class="info  aos-item" data-aos="flip-right" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
                     <div class="title">
                         锁车即还，方便快捷
                     </div>
@@ -126,8 +126,8 @@
                 <img src="img/download/3.png" alt="">
             </div>
             <div class="intro">
-                <div class="info   aos-item"  data-aos="flip-up" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
-                    <div class="title" >
+                <div class="info   aos-item" data-aos="flip-up" data-aos-offset="320" data-aos-easing="ease-in-out-quad" data-aos-duration="700">
+                    <div class="title">
                         双向充电，与人方便
                     </div>
                     <div class="info-content font18  aos-item_inner">
@@ -146,14 +146,15 @@
                 <img src="img/logo2.png" alt="imgs">
             </div>
             <div class="medias">
-                <a href="http://weibo.com/eatown" target="_blank"><img src="img/medias/weibo.png" alt="weibo"></a>
+
+                <a href="http://weibo.com/gonbike" target="_blank"><img src="img/medias/weibo.png" alt="weibo"></a>
                 <!--<a href="#"><img src="img/medias/twitter1.png" alt="twitter"> </a>
                 <a href="#"><img src="img/medias/ins1.png" alt="facebook"> </a>
                 <a href="#"><img src="img/medias/icon1.png" alt="facebook"> </a>
                 <a href="#"><img src="img/medias/guge1.png" alt="facebook"> </a>-->
-                <a href="#"><img src="img/medias/weixin.png" alt="facebook">
-                    <div class="media-img">
-
+                <a href="javascript:void(0);" class="weixin-mp"><img src="img/medias/weixin.png" alt="facebook">
+                    <div class="media-img weixin-img">
+                        <img class="weixin-img" src="img/medias/wxmp.jpg" />
                     </div>
                 </a>
             </div>
@@ -167,16 +168,25 @@
             </ul>
         </div>-->
         <div class="copyright">
-            Copyright &copy;2016 @上海共佰克智能科技有限公司. All Rights Reserved<br />
+            Copyright &copy;2016 @上海共佰克智能科技有限公司. 沪ICP备17000373号-1 All Rights Reserved<br />
         </div>
     </div>
 
+    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/aos/2.1.1/aos.js"></script>
     <script>
-      AOS.init({
-        easing: 'ease-in-out-sine'
-      });
-</script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+    <script>
+        $(".weixin-mp").mouseenter(function() {
+            $(".weixin-img").show();
+        }).mouseleave(function() {
+            $(".weixin-img").hide();
+        })
+    </script>
+
 </body>
 
 </html>
